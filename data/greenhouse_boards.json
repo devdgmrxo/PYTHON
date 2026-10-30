@@ -1,0 +1,10 @@
+{
+  "_status": "NAO CONFIGURADO: nenhuma empresa cadastrada. Preencher somente com board tokens reais e verificados.",
+  "_exemplo_de_formato": [
+    {
+      "company": "Nome da Empresa (exemplo, nao e real)",
+      "board_token": "token-do-board-na-url-boards.greenhouse.io"
+    }
+  ],
+  "boards": []
+}

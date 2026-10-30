@@ -1,0 +1,8 @@
+# Execucao
+requests
+
+# Opcional: verificacao de processos na trava de execucao (Etapa 4)
+# psutil
+
+# Desenvolvimento / testes
+pytest

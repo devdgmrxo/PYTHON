@@ -1,0 +1,38 @@
+# Banco de dados local (inclui arquivos auxiliares do modo WAL)
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# Trava de execucao
+data/jobhunter.lock
+data/*.stale
+
+# Dados pessoais
+data/profile.json
+data/exports/
+*.export.json
+painel_export*.json
+documents/
+*.pdf
+*.doc
+*.docx
+
+# Logs (mantem a pasta)
+logs/*
+!logs/.gitkeep
+
+# Ambiente virtual e caches Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Editor / sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
